@@ -1,0 +1,24 @@
+Source: libwant-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 9.20120312),
+               perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>,
+           Ansgar Burchardt <ansgar@debian.org>,
+           Florian Schlichting <fsfs@debian.org>
+Standards-Version: 3.9.7
+Homepage: https://metacpan.org/release/Want
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libwant-perl.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libwant-perl.git
+Testsuite: autopkgtest-pkg-perl
+
+Package: libwant-perl
+Architecture: any
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         ${shlibs:Depends}
+Description: generalisation of wantarray
+ The Want module generalises the mechanism of the wantarray function,
+ allowing a function to determine in some detail how its return value
+ is going to be immediately used.

@@ -1,0 +1,144 @@
+libwant-perl (0.29-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:46:55 +0800
+
+libwant-perl (0.29-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ Lucas Kanashiro ]
+  * Add debian/upstream/metadata
+  * Import upstream version 0.29
+  * Declare compliance with Debian policy 3.9.7
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Sun, 28 Feb 2016 18:04:14 -0300
+
+libwant-perl (0.26-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * New upstream release.
+    Fixes "FTBFS with perl 5.22"
+    (Closes: #787441)
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Mark package as autopkgtest-able.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 02 Jun 2015 21:21:16 +0200
+
+libwant-perl (0.23-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Florian Schlichting ]
+  * Import Upstream version 0.23
+
+ -- Florian Schlichting <fsfs@debian.org>  Fri, 11 Apr 2014 20:52:21 +0200
+
+libwant-perl (0.22-1) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Florian Schlichting ]
+  * Import Upstream version 0.22
+  * Email change: Florian Schlichting -> fsfs@debian.org
+  * Bump years of packaging copyright
+  * Fix debhelper version needed for Perl hardening support
+  * Declare compliance with Debian Policy 3.9.5
+
+ -- Florian Schlichting <fsfs@debian.org>  Mon, 23 Dec 2013 23:40:21 +0100
+
+libwant-perl (0.21-1) unstable; urgency=low
+
+  * Imported Upstream version 0.21.
+  * Bumped year of upstream copyright.
+  * Bumped Standards-Version to 3.9.3 (use copyright-format 1.0).
+  * Added myself to Uploaders and copyright.
+
+ -- Florian Schlichting <fschlich@zedat.fu-berlin.de>  Sun, 04 Mar 2012 21:54:58 +0100
+
+libwant-perl (0.20-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * Email change: Ansgar Burchardt -> ansgar@debian.org
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Switch to "3.0 (quilt)" source format.
+  * debian/copyright: update formatting.
+  * Remove version from perl build dependency.
+  * Bump Standards-Version to 3.9.2 (no further changes).
+  * Switch to debhelper compatibility level 9 to pass CFLAGS to
+    Makefile.PL/Build.PL.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 11 Feb 2012 23:14:42 +0100
+
+libwant-perl (0.18-2) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * Take over for the Debian Perl Group on maintainer's request
+    (http://lists.debian.org/debian-perl/2008/03/msg00055.html)
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza). Changed:
+    Maintainer set to Debian Perl Group <pkg-perl-
+    maintainers@lists.alioth.debian.org> (was: Florian Weimer
+    <fw@deneb.enyo.de>)
+  * Add debian/watch.
+  * Add /me to Uploaders.
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Ansgar Burchardt ]
+  * Refresh rules for debhelper 7.
+  * Do no longer install README (excerpt of POD documentation).
+  * Add myself to Uploaders.
+  * Bump Standards-Version to 3.8.2.
+  * Convert debian/copyright to proposed machine-readable format.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Tue, 21 Jul 2009 11:37:22 +0200
+
+libwant-perl (0.18-1) unstable; urgency=low
+
+  * New upstream version.
+  * Support building with MakeMaker from perl5.10.  Closes: #463558.
+
+ -- Florian Weimer <fw@deneb.enyo.de>  Wed, 27 Feb 2008 20:36:32 +0100
+
+libwant-perl (0.09-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Florian Weimer <fw@deneb.enyo.de>  Tue,  8 Nov 2005 15:53:09 +0100
+
+libwant-perl (0.08-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Florian Weimer <fw@deneb.enyo.de>  Sun, 26 Dec 2004 16:44:59 +0100
+
+libwant-perl (0.07-2) unstable; urgency=low
+
+  * Fix build dependencies.  Closes: #263765.
+
+ -- Florian Weimer <fw@deneb.enyo.de>  Thu,  5 Aug 2004 20:30:33 +0200
+
+libwant-perl (0.07-1) unstable; urgency=low
+
+  * Initial Release.  Closes: #259153.
+
+ -- Florian Weimer <fw@deneb.enyo.de>  Tue, 13 Jul 2004 10:04:38 +0200
+
